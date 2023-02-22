@@ -1,0 +1,16 @@
+.products{
+    width: 90%;
+    margin-inline: auto;
+    border-radius: 30px;
+    margin-bottom: 4rem;
+    background-color: #031b34;
+
+}
+
+.products h4{
+    color: white;
+    margin-right: 6rem;
+    margin-bottom: 2rem;
+    padding-top: 1rem;
+}
+

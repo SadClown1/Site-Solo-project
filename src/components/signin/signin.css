@@ -1,0 +1,32 @@
+.form-signin{
+    background-color:rgba(255, 255, 224, 0.567)  ;
+    border-radius: 10px;
+}
+
+.sign-up {
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+@media screen and (max-width:850px){
+    .inputss{
+       width: 100% !important;
+    }
+    .mainss{
+        width: 60% !important;
+
+    }
+}
+
+
+@media screen and (max-width:450px){
+    .inputss{
+       width: 100% !important;
+    }
+    .mainss{
+        width: 100% !important;
+
+    }
+}

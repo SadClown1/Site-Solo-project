@@ -1,0 +1,89 @@
+.checkout-container{
+    display: flex;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+.checkout{
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 5rem 3rem 5rem ;
+    background-color:rgba(255, 255, 224, 0.567)  ;
+    border-radius: 10px;
+}
+
+.form-name{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+
+}
+
+.form-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.form-data{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    
+}
+
+.form-select{
+    width: 100%;
+}
+
+.form-c{
+    width: 100%;
+}
+
+.hr{
+    width: 75%;
+    /* margin-bottom: 3rem; */
+    border: 1px solid black;
+}
+
+
+.payment{
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+.form-cards{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.cost{
+    margin: 4rem 5rem 3rem 5rem ;
+
+}
+
+@media screen and (max-width:850px){
+    .checkout{
+        width: 75% !important;
+    }
+    
+    .form-name{
+        flex-direction: column;
+        width: 100% !important;
+    }
+    .c-input{
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width:450px){
+    .checkout{
+        width: 100% !important;
+    }
+
+
+}

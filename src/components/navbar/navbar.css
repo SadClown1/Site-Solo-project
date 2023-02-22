@@ -1,0 +1,133 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar-items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.navbar-logo{
+    margin-right:2.5rem ;
+}
+ .navbar-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+
+ }
+
+.navbar-links a{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 5rem;
+    margin-top: 15px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.navbar-links a,.navbar-menu-links a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+.navbar-links a:hover,.navbar-menu-links a:hover{
+    color: orange;
+}
+
+.navbar-sign{
+    margin-left: 2.5rem;
+}
+
+.navbar-sign button,.navbar-menu-sign button{
+    padding: 10px;
+    margin-left: 1rem;
+    width: 75px;
+    background-color: orange;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.navbar-sign button:hover,.navbar-menu-sign button:hover{
+    background-color: rgba(255, 166, 0, 0.748);
+}
+
+
+.navbar-menu-links{
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-menu-icon{
+    display: none;
+    position: relative;
+    margin-left: 1rem;
+   
+}
+
+.navbar-menu-container{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background-color: #031B34;
+    padding: 15px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.navbar-menu-sign button{
+   margin-top: 8px;
+}
+
+@media screen and (max-width:900px){
+.navbar-links,.navbar-menu-sign{
+    display: none;
+}
+.navbar-menu-icon{
+   display: block;
+}
+.navbar-menu-container{
+    width: 120px;
+
+}
+
+
+.navbar-menu-links a {
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.navbar-sign{
+    flex: 1;
+    display: flex;
+    justify-content: end;
+}
+
+}
+
+@media screen and (max-width:750px){
+         .navbar-sign{
+            display: none;
+         }   
+         .navbar-menu-sign{
+            display: block;
+         }
+
+}
+
+

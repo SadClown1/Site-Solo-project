@@ -1,0 +1,129 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    align-items: center;
+    background:#031B34;
+    width: 90%;
+    margin: 5rem auto;
+    color: white;
+    padding: 5rem;
+    border-radius: 25px;
+        /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.header-text{
+    display: flex;
+    flex-direction: column;
+    line-height:30px
+}
+
+.header-text h1{
+    margin-bottom: 2rem;
+    background-color: red;
+    background-image: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    font-weight: 900;
+
+}
+
+.header-text p{
+    color: #81AFDD;
+    
+}
+
+.header-img{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-img img{
+    width: 400px;
+    height: 200px;;
+
+}
+
+@media screen and (max-width: 1050px){
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+    .header-img {
+        margin:1rem 0rem 0rem 7rem ;
+    }
+ }
+
+ @media screen and (max-width: 650px){
+     .header-text h1{
+        font-size:25px ;
+     }
+     .header-text p{
+        font-size: 12px;
+     }
+     .header-img img{
+        width: 300px;
+        height: 150px;
+     }
+  
+  }
+ 
+ 
+ 
+ @media screen and (max-width: 490px){
+    .header{
+        padding: 2rem;
+    }
+     .header-text h1{
+        font-size: 20px;
+     }
+     .header-text p{
+        font-size: 10px;
+        line-height: 15px;
+     }
+ }
+
+ @media screen and (max-width: 375px){
+   
+    
+    .header-text h1{
+        font-size: 15px;
+    }
+    
+    .header-text p{
+        font-size: 8px;
+        line-height: 10px;
+    }
+
+    .header-img img{
+        width: 200px;
+        height: 80px;
+     }
+     .header-img {
+        margin:1rem 0rem 0rem 5rem ;
+    }
+ }
+
+
+  
