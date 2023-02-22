@@ -13,6 +13,7 @@ import About from './components/About/About';
 
 
 function App() {
+  console.log(window.location.origin)
   return (
   <div>
       <ShopContextProvider >

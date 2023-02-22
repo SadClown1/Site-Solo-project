@@ -6,12 +6,24 @@
    
 }
 
-.checkout{
+.checkouts{
     display: flex;
     flex-direction: column;
     margin: 4rem 5rem 3rem 5rem ;
     background-color:rgba(255, 255, 224, 0.567)  ;
     border-radius: 10px;
+}
+
+.checkouts button{
+    width: 150px;
+    height: 50px;
+    background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+    margin-inline: auto;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
 }
 
 .form-name{
@@ -67,7 +79,7 @@ gap: 20px;
 }
 
 @media screen and (max-width:850px){
-    .checkout{
+    .checkouts{
         width: 75% !important;
     }
     
@@ -81,7 +93,7 @@ gap: 20px;
 }
 
 @media screen and (max-width:450px){
-    .checkout{
+    .checkouts{
         width: 100% !important;
     }
 

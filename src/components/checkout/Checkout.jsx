@@ -38,7 +38,7 @@ const Checkout = () => {
 
   return (
     <div className='checkout-container 'style={{backgroundImage:`url(images1/sign.jpg)`}}>
-      <div className='checkout  w-50 mx-auto'>
+      <div className='checkouts  w-50 mx-auto'>
       <form onSubmit={checkout}>
       <div className=' form-name p-4'>
         <input className='form-control w-50 c-input' placeholder='نام'
